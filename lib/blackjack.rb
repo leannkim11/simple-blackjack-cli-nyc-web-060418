@@ -7,7 +7,7 @@ def deal_card
 end
 
 def display_card_total
-  # code #display_card_total here
+  puts "Type 'h' to hit or 's' to stay"
 end
 
 def prompt_user

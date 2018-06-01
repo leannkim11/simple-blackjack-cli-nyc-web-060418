@@ -39,6 +39,7 @@ def hit?(card_number)
   elsif input != "h" || input != "s"
     invalid_command
     prompt_user
+    get_user_input
   end
 end
 

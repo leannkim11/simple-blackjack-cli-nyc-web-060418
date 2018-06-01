@@ -29,7 +29,14 @@ def initial_round
 end
 
 def hit?(card_number)
-  # code hit? here
+  prompt_user
+  get_user_input
+  if input == "h"
+    deal_card
+  elsif input != "h" || input != "s"
+    invalid_command
+    prompt_user
+  end
 end
 
 def invalid_command
